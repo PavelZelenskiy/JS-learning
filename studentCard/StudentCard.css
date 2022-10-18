@@ -1,0 +1,93 @@
+
+body {
+    font-size: 16px;
+    line-height: 1em;
+    font-weight: 100;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 700px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+.avatar {
+    height: 200px;
+    margin: 10px;
+    border-radius: 10%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8);
+    padding: 2px;
+    margin-left: 30px;
+}
+.main-info {
+    display: flex;
+}
+.main-text {
+    margin-left: 10px;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 30px;
+}
+h1, h2 {
+    text-align: center;
+    
+}
+.my-goals, .hours-to-lern, .my-courses, .contacts {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8);
+    background-color: lightgray;
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 1px;
+}
+.lern-table {
+    width: 100%;
+    padding-right: 85px;
+    padding-left: 35px;
+    text-align: center;
+    
+}
+table td {
+    padding-bottom: 5px;
+}
+table th {
+    padding-bottom: 5px;
+   
+}
+.course-table {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 70px;
+    text-align: center;
+}
+.string {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.8);
+    background-color: lightgray;
+    margin: 20px;
+    height: 5px;
+}
+ul {
+    margin: 5px;
+    margin-bottom: 20px;
+}
+table {
+    margin: 5px;
+    margin-bottom: 20px;
+}
+li {
+    margin: 4px;
+    font-size: 18px;
+}
+.contacts {
+    text-align: center;
+}
+a {
+    color: black;
+    margin: 2px;
+    transition: all .2s;
+    font-size: 40px;
+}
+a:hover {
+    color: orangered;
+    font-size: 2rem;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>extraTasks6T2</title>
+</head>
+<body>
+    <script>
+        function isEqualSymbols(str1, str2) {
+            let match = true;
+            if (str1.length === str2.length) {
+                for (let i = 0; i < str1.length; i++) {
+                    if (!str1.includes(str2[i])) {
+                        match = false;
+                    }
+                }
+            } else {
+                match = false;
+            }
+            return match;
+        };
+        console.log(isEqualSymbols("адрес", "среда")); // true
+        console.log(isEqualSymbols("ноутбук", "программист")); // false
+        console.log(isEqualSymbols("адрес", "ппппп")); // false
+        console.log(isEqualSymbols("ппппп", "ппппп")); // true
+    </script>
+</body>
+</html>
